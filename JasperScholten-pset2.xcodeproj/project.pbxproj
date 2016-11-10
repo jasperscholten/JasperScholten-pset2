@@ -17,7 +17,6 @@
 		A46298E31DD0BCB400928CFD /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DE1DD0BCB400928CFD /* madlib2_university.txt */; };
 		A46298E41DD0BCB400928CFD /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DF1DD0BCB400928CFD /* madlib3_clothes.txt */; };
 		A46298E51DD0BCB400928CFD /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298E01DD0BCB400928CFD /* madlib4_dance.txt */; };
-		A46D17F11DD519A2001DB75E /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = A46D17F01DD519A2001DB75E /* README.MD */; };
 		A49FB5601DD523750075D4DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49FB55F1DD523750075D4DA /* ViewController.swift */; };
 		A4B0E56F1DD1F53200C159EC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0E56E1DD1F53200C159EC /* ThirdViewController.swift */; };
 		A4CB00A11DD5200800DB143D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB00A01DD5200800DB143D /* SecondViewController.swift */; };
@@ -170,7 +169,6 @@
 			files = (
 				A49FB5601DD523750075D4DA /* ViewController.swift in Sources */,
 				A4CB00A11DD5200800DB143D /* SecondViewController.swift in Sources */,
-				A46D17F11DD519A2001DB75E /* README.MD in Sources */,
 				A4B0E56F1DD1F53200C159EC /* ThirdViewController.swift in Sources */,
 				A46298C71DD07F4600928CFD /* AppDelegate.swift in Sources */,
 				A46298D91DD0802900928CFD /* Story.swift in Sources */,
