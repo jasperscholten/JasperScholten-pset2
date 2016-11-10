@@ -19,6 +19,7 @@
 		A46298E31DD0BCB400928CFD /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DE1DD0BCB400928CFD /* madlib2_university.txt */; };
 		A46298E41DD0BCB400928CFD /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DF1DD0BCB400928CFD /* madlib3_clothes.txt */; };
 		A46298E51DD0BCB400928CFD /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298E01DD0BCB400928CFD /* madlib4_dance.txt */; };
+		A46D17F11DD519A2001DB75E /* README.MD in Sources */ = {isa = PBXBuildFile; fileRef = A46D17F01DD519A2001DB75E /* README.MD */; };
 		A4B0E56F1DD1F53200C159EC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0E56E1DD1F53200C159EC /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,12 +32,13 @@
 		A46298D01DD07F4600928CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A46298D21DD07F4600928CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A46298D81DD0802900928CFD /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../madlibs_ios/Story.swift; sourceTree = "<group>"; };
-		A46298DA1DD0B97800928CFD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		A46298DA1DD0B97800928CFD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A46298DC1DD0BCB400928CFD /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = ../../madlibs_ios/madlib0_simple.txt; sourceTree = "<group>"; };
 		A46298DD1DD0BCB400928CFD /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = ../../madlibs_ios/madlib1_tarzan.txt; sourceTree = "<group>"; };
 		A46298DE1DD0BCB400928CFD /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = ../../madlibs_ios/madlib2_university.txt; sourceTree = "<group>"; };
 		A46298DF1DD0BCB400928CFD /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = ../../madlibs_ios/madlib3_clothes.txt; sourceTree = "<group>"; };
 		A46298E01DD0BCB400928CFD /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = ../../madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
+		A46D17F01DD519A2001DB75E /* README.MD */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.MD; sourceTree = "<group>"; };
 		A4B0E56E1DD1F53200C159EC /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -54,6 +56,7 @@
 		A46298BA1DD07F4600928CFD = {
 			isa = PBXGroup;
 			children = (
+				A46D17F01DD519A2001DB75E /* README.MD */,
 				A46298C51DD07F4600928CFD /* JasperScholten-pset2 */,
 				A46298C41DD07F4600928CFD /* Products */,
 			);
@@ -165,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46D17F11DD519A2001DB75E /* README.MD in Sources */,
 				A46298DB1DD0B97800928CFD /* SecondViewController.swift in Sources */,
 				A46298C91DD07F4600928CFD /* ViewController.swift in Sources */,
 				A4B0E56F1DD1F53200C159EC /* ThirdViewController.swift in Sources */,
