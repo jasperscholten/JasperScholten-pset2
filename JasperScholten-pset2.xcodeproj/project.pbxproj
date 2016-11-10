@@ -12,6 +12,14 @@
 		A46298CC1DD07F4600928CFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46298CA1DD07F4600928CFD /* Main.storyboard */; };
 		A46298CE1DD07F4600928CFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A46298CD1DD07F4600928CFD /* Assets.xcassets */; };
 		A46298D11DD07F4600928CFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A46298CF1DD07F4600928CFD /* LaunchScreen.storyboard */; };
+		A46298D91DD0802900928CFD /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46298D81DD0802900928CFD /* Story.swift */; };
+		A46298DB1DD0B97800928CFD /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A46298DA1DD0B97800928CFD /* SecondViewController.swift */; };
+		A46298E11DD0BCB400928CFD /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DC1DD0BCB400928CFD /* madlib0_simple.txt */; };
+		A46298E21DD0BCB400928CFD /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DD1DD0BCB400928CFD /* madlib1_tarzan.txt */; };
+		A46298E31DD0BCB400928CFD /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DE1DD0BCB400928CFD /* madlib2_university.txt */; };
+		A46298E41DD0BCB400928CFD /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298DF1DD0BCB400928CFD /* madlib3_clothes.txt */; };
+		A46298E51DD0BCB400928CFD /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = A46298E01DD0BCB400928CFD /* madlib4_dance.txt */; };
+		A4B0E56F1DD1F53200C159EC /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B0E56E1DD1F53200C159EC /* ThirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +30,14 @@
 		A46298CD1DD07F4600928CFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A46298D01DD07F4600928CFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A46298D21DD07F4600928CFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A46298D81DD0802900928CFD /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../madlibs_ios/Story.swift; sourceTree = "<group>"; };
+		A46298DA1DD0B97800928CFD /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SecondViewController.swift; path = ../SecondViewController.swift; sourceTree = "<group>"; };
+		A46298DC1DD0BCB400928CFD /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = ../../madlibs_ios/madlib0_simple.txt; sourceTree = "<group>"; };
+		A46298DD1DD0BCB400928CFD /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = ../../madlibs_ios/madlib1_tarzan.txt; sourceTree = "<group>"; };
+		A46298DE1DD0BCB400928CFD /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = ../../madlibs_ios/madlib2_university.txt; sourceTree = "<group>"; };
+		A46298DF1DD0BCB400928CFD /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = ../../madlibs_ios/madlib3_clothes.txt; sourceTree = "<group>"; };
+		A46298E01DD0BCB400928CFD /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = ../../madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
+		A4B0E56E1DD1F53200C159EC /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +71,19 @@
 			isa = PBXGroup;
 			children = (
 				A46298C61DD07F4600928CFD /* AppDelegate.swift */,
+				A46298D81DD0802900928CFD /* Story.swift */,
 				A46298C81DD07F4600928CFD /* ViewController.swift */,
+				A46298DA1DD0B97800928CFD /* SecondViewController.swift */,
+				A4B0E56E1DD1F53200C159EC /* ThirdViewController.swift */,
 				A46298CA1DD07F4600928CFD /* Main.storyboard */,
 				A46298CD1DD07F4600928CFD /* Assets.xcassets */,
 				A46298CF1DD07F4600928CFD /* LaunchScreen.storyboard */,
 				A46298D21DD07F4600928CFD /* Info.plist */,
+				A46298DC1DD0BCB400928CFD /* madlib0_simple.txt */,
+				A46298DD1DD0BCB400928CFD /* madlib1_tarzan.txt */,
+				A46298DE1DD0BCB400928CFD /* madlib2_university.txt */,
+				A46298DF1DD0BCB400928CFD /* madlib3_clothes.txt */,
+				A46298E01DD0BCB400928CFD /* madlib4_dance.txt */,
 			);
 			path = "JasperScholten-pset2";
 			sourceTree = "<group>";
@@ -124,7 +148,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A46298D11DD07F4600928CFD /* LaunchScreen.storyboard in Resources */,
+				A46298E41DD0BCB400928CFD /* madlib3_clothes.txt in Resources */,
+				A46298E21DD0BCB400928CFD /* madlib1_tarzan.txt in Resources */,
 				A46298CE1DD07F4600928CFD /* Assets.xcassets in Resources */,
+				A46298E11DD0BCB400928CFD /* madlib0_simple.txt in Resources */,
+				A46298E31DD0BCB400928CFD /* madlib2_university.txt in Resources */,
+				A46298E51DD0BCB400928CFD /* madlib4_dance.txt in Resources */,
 				A46298CC1DD07F4600928CFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +165,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A46298DB1DD0B97800928CFD /* SecondViewController.swift in Sources */,
 				A46298C91DD07F4600928CFD /* ViewController.swift in Sources */,
+				A4B0E56F1DD1F53200C159EC /* ThirdViewController.swift in Sources */,
 				A46298C71DD07F4600928CFD /* AppDelegate.swift in Sources */,
+				A46298D91DD0802900928CFD /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +331,7 @@
 				A46298D71DD07F4600928CFD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
